@@ -1,0 +1,7 @@
+str1 = input("Enter the first string: ")
+str2 = input("Enter the second string: ")
+print("First string:",str1)
+print("Second string:",str2)
+print("Concatenation of two strings is",str1+str2)
+print("Substring of s1:",str1[1:4])
+print("Substring of s2:",str2[3:6])
