@@ -1,0 +1,5 @@
+T1=(1,2,2,3,4,5,6,7,8,9)
+print("Count of 2:", T1.count(2))
+print("Index of 3:", T1.index(3))
+print("Length of tuple:", len(T1))
+print("Maximum value:", max(T1))
