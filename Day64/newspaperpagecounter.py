@@ -1,6 +1,12 @@
 def newspaper():
-    pages = int(input("Enter total newspaper pages: "))
+    n = int(input("Enter number of newspapers: "))
 
-    print("Total Pages =", pages)
+    total_pages = 0
+
+    for i in range(n):
+        pages = int(input("Enter pages in newspaper: "))
+        total_pages += pages
+
+    print("Total Pages =", total_pages)
 
 newspaper()
