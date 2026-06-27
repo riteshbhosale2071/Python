@@ -1,0 +1,22 @@
+def meetingplanner():
+    meeting_name = input("Enter meeting name: ")
+
+    hour = int(input("Enter meeting hour (0-23): "))
+    minute = int(input("Enter meeting minute: "))
+
+    duration = int(input("Enter meeting duration (minutes): "))
+
+    start_time = hour * 60 + minute
+    end_time = start_time + duration
+
+    end_hour = (end_time // 60) % 24
+    end_minute = end_time % 60
+
+    print("\nMeeting Details")
+    print("Meeting Name :", meeting_name)
+    print(f"Start Time : {hour:02d}:{minute:02d}")
+    print(f"End Time   : {end_hour:02d}:{end_minute:02d}")
+    print("Duration   :", duration, "minutes")
+
+
+meetingplanner()
