@@ -1,0 +1,17 @@
+def schooltimetable():
+    days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+
+    timetable = {}
+
+    for day in days:
+        subject = input(f"Enter subject for {day}: ")
+        timetable[day] = subject
+
+    print("\nSchool Timetable")
+    print("-" * 30)
+
+    for day, subject in timetable.items():
+        print(day, ":", subject)
+
+
+schooltimetable()
