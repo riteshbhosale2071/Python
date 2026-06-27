@@ -1,0 +1,19 @@
+def calculateduration():
+    start_hour = int(input("Enter start hour (0-23): "))
+    start_minute = int(input("Enter start minute: "))
+
+    end_hour = int(input("Enter end hour (0-23): "))
+    end_minute = int(input("Enter end minute: "))
+
+    start_time = start_hour * 60 + start_minute
+    end_time = end_hour * 60 + end_minute
+
+    duration = end_time - start_time
+
+    hours = duration // 60
+    minutes = duration % 60
+
+    print("Duration =", hours, "hour(s)", minutes, "minute(s)")
+
+
+calculateduration()
