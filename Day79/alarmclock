@@ -1,0 +1,14 @@
+def alarmclock():
+    current_hour = int(input("Enter current hour (0-23): "))
+    current_minute = int(input("Enter current minute: "))
+
+    alarm_hour = int(input("Enter alarm hour (0-23): "))
+    alarm_minute = int(input("Enter alarm minute: "))
+
+    if current_hour == alarm_hour and current_minute == alarm_minute:
+        print("Alarm Ringing!")
+    else:
+        print("Alarm Not Yet")
+
+
+alarmclock()
