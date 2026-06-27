@@ -1,0 +1,17 @@
+def busdeparture():
+    departure_hour = int(input("Enter departure hour (0-23): "))
+    departure_minute = int(input("Enter departure minute: "))
+
+    travel_hours = int(input("Enter travel hours: "))
+    travel_minutes = int(input("Enter travel minutes: "))
+
+    departure_time = departure_hour * 60 + departure_minute
+    arrival_time = departure_time + (travel_hours * 60) + travel_minutes
+
+    arrival_hour = (arrival_time // 60) % 24
+    arrival_minute = arrival_time % 60
+
+    print(f"Arrival Time: {arrival_hour:02d}:{arrival_minute:02d}")
+
+
+busdeparture()
