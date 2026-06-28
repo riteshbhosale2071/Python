@@ -1,0 +1,22 @@
+def stopwatchlap():
+    laps = int(input("Enter number of laps: "))
+
+    lap_times = []
+
+    for i in range(laps):
+        time = float(input(f"Enter time for Lap {i+1} (seconds): "))
+        lap_times.append(time)
+
+    print("\nLap Report")
+    print("-" * 25)
+
+    for i in range(laps):
+        print(f"Lap {i+1}: {lap_times[i]} seconds")
+
+    print("\nFastest Lap =", min(lap_times), "seconds")
+    print("Slowest Lap =", max(lap_times), "seconds")
+    print("Total Time =", sum(lap_times), "seconds")
+    print("Average Lap Time =", round(sum(lap_times) / laps, 2), "seconds")
+
+
+stopwatchlap()

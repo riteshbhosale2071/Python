@@ -1,0 +1,18 @@
+def dailyactivity():
+    n = int(input("Enter number of activities: "))
+
+    activities = {}
+
+    for i in range(n):
+        activity = input(f"Enter activity {i+1}: ")
+        time = input(f"Enter time for {activity} (HH:MM): ")
+        activities[time] = activity
+
+    print("\nDaily Activity Schedule")
+    print("-" * 30)
+
+    for time in sorted(activities):
+        print(time, "-", activities[time])
+
+
+dailyactivity()
