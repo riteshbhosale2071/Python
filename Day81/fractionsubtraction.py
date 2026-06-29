@@ -18,5 +18,4 @@ def fractionsubtraction():
 
     print("Difference =", numerator, "/", denominator)
 
-
 fractionsubtraction()
