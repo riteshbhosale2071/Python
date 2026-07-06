@@ -1,4 +1,4 @@
-def verify_division(dividend, divisor):
+def verifydivision(dividend, divisor):
     quotient = dividend // divisor
     remainder = dividend % divisor
 
@@ -10,4 +10,4 @@ def verify_division(dividend, divisor):
 dividend = int(input("Enter dividend: "))
 divisor = int(input("Enter divisor: "))
 
-verify_division(dividend, divisor)
+verifydivision(dividend, divisor)
