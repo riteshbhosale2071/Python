@@ -1,4 +1,4 @@
-def find_divisor():
+def finddivisor():
     dividend = int(input("Enter dividend: "))
     quotient = int(input("Enter quotient: "))
 
