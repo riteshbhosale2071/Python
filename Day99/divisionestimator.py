@@ -1,4 +1,4 @@
-def division_estimator():
+def divisionestimator():
     dividend = int(input("Enter dividend: "))
     divisor = int(input("Enter divisor: "))
 
@@ -9,4 +9,4 @@ def division_estimator():
     estimate = round(dividend / divisor)
     print("Estimated Quotient =", estimate)
 
-division_estimator()
+divisionestimator()
