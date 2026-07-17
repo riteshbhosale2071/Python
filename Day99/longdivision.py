@@ -1,4 +1,4 @@
-def long_division():
+def longdivision():
     dividend = int(input("Enter dividend: "))
     divisor = int(input("Enter divisor: "))
 
@@ -14,4 +14,4 @@ def long_division():
     print("Quotient :", quotient)
     print("Remainder:", remainder)
 
-long_division()
+longdivision()
