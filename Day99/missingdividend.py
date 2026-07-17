@@ -1,4 +1,4 @@
-def find_dividend():
+def finddividend():
     divisor = int(input("Enter divisor: "))
     quotient = int(input("Enter quotient: "))
 
@@ -6,4 +6,4 @@ def find_dividend():
 
     print("Missing Dividend =", dividend)
 
-find_dividend()
+finddividend()
