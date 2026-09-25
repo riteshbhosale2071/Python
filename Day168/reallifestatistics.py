@@ -1,4 +1,4 @@
-def reallifestatisticsreport():
+def reallifestatistics():
     print("Real-Life Statistics Report :")
 
     number_of_values = int(input("Enter the number of data values: "))
@@ -96,4 +96,4 @@ def reallifestatisticsreport():
 
     print("\nReport Generation Completed Successfully.")
 
-reallifestatisticsreport()
+reallifestatistics()
