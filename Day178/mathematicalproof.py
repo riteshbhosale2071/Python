@@ -1,5 +1,5 @@
-def mathematicalproofchecker():
-    print("Mathematical Proof Checker :")
+def mathematicalproof():
+    print("Mathematical Proof :")
     print("1. Even Number Proof")
     print("2. Odd Number Proof")
     print("3. Triangle Angle Sum Proof")
@@ -84,4 +84,4 @@ def mathematicalproofchecker():
     else:
         print("Invalid proof type.")
 
-mathematicalproofchecker()
+mathematicalproof()
