@@ -1,5 +1,5 @@
-def businesstransactionanalyzer():
-    print("Business Transaction Analyzer :")
+def businesstransactions():
+    print("Business Transaction :")
 
     number_of_transactions = int(input("Enter number of transactions: "))
 
@@ -53,4 +53,4 @@ def businesstransactionanalyzer():
         profit_margin = (profit_or_loss / total_income) * 100
         print("Profit Margin:", round(profit_margin, 2), "%")
 
-businesstransactionanalyzer()
+businesstransactions()
