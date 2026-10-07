@@ -1,4 +1,4 @@
-def compoundinterestdifference():
+def compoundinterestdiff():
     print("Compound Interest Difference :")
 
     principal = float(input("Enter principal amount: "))
@@ -30,4 +30,4 @@ def compoundinterestdifference():
     print("Compound Interest Amount:", round(compound_amount, 2))
     print("Final Difference:", round(final_difference, 2))
 
-compoundinterestdifference()
+compoundinterestdiff()
