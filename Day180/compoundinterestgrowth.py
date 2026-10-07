@@ -1,5 +1,5 @@
-def compoundinterestgrowthpercent():
-    print("Compound Interest Growth Percent :")
+def compoundinterestgrowth():
+    print("Compound Interest Growth :")
 
     principal = float(input("Enter principal amount: "))
     rate = float(input("Enter annual interest rate (%): "))
@@ -19,4 +19,4 @@ def compoundinterestgrowthpercent():
     print("Growth Amount:", round(growth_amount, 2))
     print("Growth Percentage:", round(growth_percentage, 2), "%")
 
-compoundinterestgrowthpercent()
+compoundinterestgrowth()
