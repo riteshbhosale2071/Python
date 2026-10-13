@@ -1,5 +1,5 @@
 def volumetosurfaceratio():
-    print("Volume-to-Surface Ratio Calculator :")
+    print("Volume-to-Surface Ratio :")
     print("1. Cube")
     print("2. Cuboid")
     print("3. Cylinder")
