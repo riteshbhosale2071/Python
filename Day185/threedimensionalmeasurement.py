@@ -1,4 +1,4 @@
-def threedimensionalmeasurementvalidator():
+def threedimensionalmeasurement():
     print("Three-Dimensional Measurement Validator :")
     print("1. Cube")
     print("2. Cuboid")
@@ -75,4 +75,4 @@ def threedimensionalmeasurementvalidator():
 
     print("All entered dimensions are valid positive values.")
 
-threedimensionalmeasurementvalidator()
+threedimensionalmeasurement()
