@@ -1,5 +1,5 @@
-def congruentchordarcchecker():
-    print("Congruent Chord-Arc Checker :")
+def congruentchordarc():
+    print("Congruent Chord-Arc :")
 
     import math
 
@@ -64,4 +64,4 @@ def congruentchordarcchecker():
     else:
         print("The circles have different radii.")
 
-congruentchordarcchecker()
+congruentchordarc()
