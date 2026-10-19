@@ -1,5 +1,5 @@
-def numberlinepositioncalculator():
-    print("Number Line Position Calculator :")
+def numberlineposition():
+    print("Number Line Position :")
 
     try:
         number = float(input("Enter a number: "))
@@ -52,4 +52,4 @@ def numberlinepositioncalculator():
 
     print("\nAbsolute Distance:", round(abs(number - reference), 4))
 
-numberlinepositioncalculator()
+numberlineposition()
