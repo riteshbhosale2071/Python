@@ -1,4 +1,4 @@
-def squareroottypechecker():
+def squareroottype():
     print("Square Root Type Checker :")
 
     try:
@@ -64,4 +64,4 @@ def squareroottypechecker():
     elif number == 1:
         print("Special Case: The square root of one is one.")
 
-squareroottypechecker()
+squareroottype()
