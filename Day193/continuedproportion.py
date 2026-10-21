@@ -1,4 +1,4 @@
-def continuedproportionchecker():
+def continuedproportion():
     print("Continued Proportion Checker :")
 
     try:
@@ -62,4 +62,4 @@ def continuedproportionchecker():
     else:
         print("The three numbers are not all equal.")
 
-continuedproportionchecker()
+continuedproportion()
