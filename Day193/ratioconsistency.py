@@ -1,4 +1,4 @@
-def ratioconsistencyanalyzer():
+def ratioconsistency():
     print("Ratio Consistency Analyzer :")
 
     try:
@@ -77,4 +77,4 @@ def ratioconsistencyanalyzer():
                 print("Ratio", i + 1, "and Ratio", j + 1,
                       "are not equivalent.")
 
-ratioconsistencyanalyzer()
+ratioconsistency()
