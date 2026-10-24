@@ -1,4 +1,4 @@
-def groupedmedianestimator():
+def groupedmedian():
     print("Grouped Median Estimator :")
 
     try:
@@ -131,4 +131,4 @@ def groupedmedianestimator():
 
     print("\nNote: The median is estimated using the grouped-data formula.")
 
-groupedmedianestimator()
+groupedmedian()
