@@ -1,4 +1,4 @@
-def surveyresponseanalyzer():
+def surveyresponse():
     print("Survey Response Analyzer :")
 
     try:
@@ -119,4 +119,4 @@ def surveyresponseanalyzer():
 
     print("\nSurvey response analysis completed successfully.")
 
-surveyresponseanalyzer()
+surveyresponse()
