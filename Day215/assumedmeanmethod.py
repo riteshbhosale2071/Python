@@ -1,5 +1,5 @@
-def assumedmeanmethodcalculator():
-    print("Assumed Mean Method Calculator")
+def assumedmeanmethod():
+    print("Assumed Mean Method :")
 
     n = int(input("Enter the number of class intervals: "))
 
@@ -51,4 +51,4 @@ def assumedmeanmethodcalculator():
     print("Sum of f × d:", total_fd)
     print(f"Mean: {mean:.2f}")
 
-assumedmeanmethodcalculator()
+assumedmeanmethod()
